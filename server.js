@@ -10,7 +10,7 @@ app.use(cors())
 app.use(express.json())
 
 // service
-
+app.use('/',()=>{})
 
 // notFound
 app.use( notFound )
